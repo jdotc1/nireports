@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `nipreps/nireports <https://github.com/nipreps/nireports>`__, the reporting and visualization system used by NiPreps. It creates reportlets such as image mosaics, registration comparisons, and fMRI carpet plots, then assembles them into HTML reports using a YAML specification. These reports help researchers inspect what happened at each processing step.
+
+Fork work is tracked in `upstream PR #292 <https://github.com/nipreps/nireports/pull/292>`__, proposing bounded scanning of embedded PNG data in SVG input. It was open on 17 October 2026 and remains on the linked feature branch.
+
+See the `official documentation <https://nireports.readthedocs.io/>`__ for installation and reporting APIs. `Compare the default branch with upstream <https://github.com/jdotc1/nireports/compare/nipreps:main...jdotc1:main>`__ to inspect the development base. The original overview of reportlets and report assembly follows.
+
+.. rubric:: Upstream README
+
 
 .. image:: https://img.shields.io/pypi/v/nireports.svg
   :target: https://pypi.python.org/pypi/nireports/
